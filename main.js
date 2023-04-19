@@ -3,7 +3,6 @@ $(document).ready(function(){
 
     $('.bxslider').bxSlider({
         pager: false,
-        infiniteLoop: false,
         controls: true,
         maxSlides: 4,
         minSlides: 1,
@@ -14,7 +13,7 @@ $(document).ready(function(){
         touchEnabled: false,
     }); 
 
-    Fancybox.bind('[data-fancybox="gallery"]', {
+    Fancybox.bind('[data-fancybox]', {
       //
     });
   });
