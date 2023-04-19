@@ -1,7 +1,7 @@
 
 $(document).ready(function(){  
 
-    $('.bxslider').bxSlider({
+    $('.certificates').bxSlider({
         pager: false,
         controls: true,
         maxSlides: 4,
