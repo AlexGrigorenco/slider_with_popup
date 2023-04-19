@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #efefef;
+    padding: 50px 0;
+}
+h1{
+    padding: 30px 0;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.bx-wrapper{
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0 38px;
+}
+.bxslider .img-wrapper{
+    display: block;
+    padding: 6px;
+    height: 320px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.bxslider .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+    cursor: zoom-in;
+}
+
+.bx-wrapper .bx-controls-direction a{
+    z-index: 10;
+    padding: 4px;
+    opacity: .6;
+}
+.bx-wrapper .bx-controls-direction a span{
+   display: block;
+   border-right: 3px solid #000;
+   border-top: 3px solid #000;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+.bx-wrapper .bx-controls-direction a.bx-next span {
+    transform: rotate(45deg);
+}
+.bx-wrapper .bx-controls-direction a.bx-prev span {
+    transform: rotate(-135deg);
+}
+.bx-wrapper .bx-controls-direction a:hover{
+    opacity: 1;
+}
+.bx-wrapper .bx-controls-direction a:active{
+    transform: scale(.9);
+}
+
+.fancybox__container{
+    z-index: 100;
+}
